@@ -1,4 +1,4 @@
-FROM postgres:13
+FROM postgres:14
 
 ADD https://github.com/adempiere/adempiere/releases/download/3.9.4/adempiere_postgresql_seed.tar.gz /tmp/adempiere_postgresql_seed.tar.gz
 
